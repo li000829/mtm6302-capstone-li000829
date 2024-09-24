@@ -28,3 +28,5 @@ Project I intend to: #Astronomy Picture of the Day Search
 - The form is prominent and straightforward, encouraging user engagement.
 - Image interactions are intuitive, with clear buttons for saving and deleting favorites.
 - Responsive design ensures usability across all devices without loss of functionality.
+
+"Completes the assignment part 2."
