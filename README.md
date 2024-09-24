@@ -9,9 +9,9 @@ Project I intend to: #Astronomy Picture of the Day Search
 - **Homepage Desktop View**: the logo is used as the background image, and the nav bar is contained in the container of the background image. The title and search button are placed in the lower half of the page.
 - **Homepage Tablet View**: layout is same with desktop.
 - **Homepage Mobile View**: layout is similar with desktop. but change to a single line for the date search bar and button.
-- **APOD page Desktop View: Utilizes a three-column layout, enhancing information display and user interaction.
-- **APOD page Tablet View: layout is same with desktop view.
-- **APOD page Mobile View: layout is similar, but improving touch accessibility for Nav Bar in order to keeping the information concise.
+- **APOD page Desktop View: Utilizes a two-column layout, enhancing information display and user interaction.
+- **APOD page Tablet View: A single-column format used in Tablet view ensures a smooth scrolling and keep the picture and content easy to read.
+- **APOD page Mobile View: layout is similar with Tablet View.
 - **myFavorite page Desktop View: Three saved pictures can be displayed in one row, and a delete button be set.
 - **myFavorite page Tablet View: change to two pictures displayed in one row.
 - **myFavorite page Mobile View: A single-column format ensures a smooth scrolling experience and easy access to user actions.
