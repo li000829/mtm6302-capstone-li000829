@@ -3,11 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>APOD</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <img src="/images/APOD home image.jpg" alt="APOD-home-image" class="homepage-image">
+            <div class="hamburger-menu" onclick="toggleDropdown()">
+                ☰
+            </div>
+            <nav id="dropdown-menu">
+                <button class="nav-btn">Home</button>
+                <button class="nav-btn">My Favorite</button>
+            </nav>
+    </header>
 
+    <main>
+        <section class="content">
+            <h1>Astronomy Picture of the Day</h1>
+            <div class="date-container">
+                <span class="apod-label">get APOD</span>
+                <input type="date" id="apod-date" class="apod-date" value="yyyy-mm-dd">
+            </div>
+        </section>
+    </main>
+    
     <script src="main.js"></script>
 </body>
 </html>
