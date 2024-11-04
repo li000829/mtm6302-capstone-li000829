@@ -58,7 +58,6 @@ nav {
     right: 20px;
 }
 
-
 /* Main content */
 main {
     max-width: 800px;
@@ -88,8 +87,8 @@ h1 {
 .apod-label {
     background-color: #e63946;
     color: white;
-    padding: 6px 18px;
-    border-radius: 4px;
+    padding: 6px 32px;
+    border-radius: 12px;
     font-size: 0.8em;
     font-weight: bold;
 }
@@ -110,16 +109,6 @@ h1 {
 }
 
 /* Responsive styling */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 1.6em;
-    }
-
-    .nav-btn {
-        padding: 6px 12px;
-    }
-
-
 @media (max-width: 480px) {
     /* Hide default nav buttons */
     .nav-btn {        

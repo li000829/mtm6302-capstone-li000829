@@ -30,3 +30,4 @@ Project I intend to: #Astronomy Picture of the Day Search
 - Responsive design ensures usability across all devices without loss of functionality.
 
 "Completes the assignment part 2."
+

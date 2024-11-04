@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOD</title>
+    <link rel="stylesheet" href="apod.css">
+</head>
+<body>
+    <header>
+        <img src="/images/logo.jpg" alt="logo" class="logo-image">
+        
+        <!-- Hamburger menu icon for mobile -->
+        <div class="hamburger-menu" onclick="toggleDropdown()">
+            ☰
+        </div>
+
+        <!-- Navigation menu (dropdown for mobile) -->
+        <nav id="dropdown-menu">
+            <button class="nav-btn">Home</button>
+            <button class="nav-btn">My Favorite</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <div class="apod-image">
+                <img src="/images/Astronomy Picture of the Day.jpg" alt="APOD Image" class="apod-main-image">
+                <p class="apod-date">2024.09.23</p>
+            </div>
+            <div class="apod-details">                
+                <h1>Astronomy Picture of the Day</h1>
+                <p class="apod-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor lorem at enim rhoncus, id tempus leo finibus. Integer mattis dolor sit amet orci facilisis, nec aliquet ante condimentum. Cras vehicula justo mi, in finibus urna porttitor sit amet. Nullam pharetra nisi magna, id ullamcorper elit laoreet non. Suspendisse.
+                </p>
+                <button class="save-btn">Save as Favorite</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,209 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styling */
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.logo-image {
+    max-width: 100px; 
+    height: auto;
+    margin-left: 30px;
+}
+
+/* Hamburger Menu Icon (visible only on mobile) */
+.hamburger-menu {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Navigation Menu */
+nav {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-btn {
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    padding: 6px 48px;
+    cursor: pointer;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    width: 90%;
+    margin-top: 60px;
+
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+    align-items: start;
+}
+
+.apod-image {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.apod-main-image {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+.apod-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.apod-date {
+    font-size: 1em;
+    font-weight: bold;
+    align-self: center;
+}
+
+h1 {
+    align-self: center;
+    margin: 30px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.apod-description {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.save-btn {
+    align-self: center;
+    padding: 10px 40px;
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    font-size: 1em;
+    border-radius: 14px;
+    cursor: pointer;
+    margin: 40px;
+}
+
+.save-btn:hover {
+    background-color: #d12b3b;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    nav {
+        position: absolute;
+        top: 40px; /* Adjust position to be closer to the top */
+        right: 30px; /* Align with right side of the screen */
+        flex-direction: row;
+        }
+
+    /* Stack content in a single column on smaller screens */
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .apod-image, .apod-details {
+        width: 100%;
+    }
+
+    .apod-details {
+        text-align: center;
+    }
+
+    .save-btn {
+        align-self: center;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Hide default nav buttons */
+    .nav-btn {        
+        display: none;
+    }
+
+    /* Show hamburger icon */
+    .hamburger-menu {
+        display: block;
+    }
+
+    /* Show dropdown menu when active */
+    #dropdown-menu.show .nav-btn {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+        padding: 10px;
+        background-color: #333;
+        text-align: center;
+        font-size: 1em;
+        font-weight: normal;
+    }
+
+    #dropdown-menu .nav-btn:hover {
+        background-color: #d12b3b;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .apod-main-image {
+        max-width: 100%;
+    }
+
+    .apod-details {
+        text-align: center;
+        align-items: center;
+    }
+
+    .save-btn {
+        align-self: center;
+    }
+}
