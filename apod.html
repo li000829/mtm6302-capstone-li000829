@@ -25,7 +25,7 @@
     <main>
         <section class="content">
             <div class="apod-image">
-                <img src="/images/Astronomy Picture of the Day.jpg" alt="APOD Image" class="apod-main-image">
+                <img src="/images/Astronomy Picture of the Day.jpg" alt="APOD Image" class="apod-main-image" id="apodImage">
                 <p class="apod-date">2024.09.23</p>
             </div>
             <div class="apod-details">                
@@ -36,6 +36,13 @@
                 <button class="save-btn">Save as Favorite</button>
             </div>
         </section>
+
+        <!-- Modal for High Definition Image -->
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="hdImage">
+            <div id="caption"></div>
+        </div>
     </main>
 
     <script src="main.js"></script>
