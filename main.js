@@ -39,3 +39,10 @@ modal.onclick = function(event) {
     }
 };
 
+// JavaScript for Hamburger Menu Toggle
+function toggleDropdown() {
+const dropdownMenu = document.getElementById("dropdown-menu");
+dropdownMenu.classList.toggle("show");
+}
+
+
