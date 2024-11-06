@@ -69,10 +69,10 @@ document.addEventListener("DOMContentLoaded", function() {
     if (img && modal && modalImg && captionText) {
         img.onclick = function() {
             modal.style.display = "block";
-            modalImg.src = "/images/Astronomy Picture of the Day.jpg";
+            modalImg.src = "/images/Astronomy-Picture-of-the-Day.jpg";
             captionText.innerHTML = this.alt;
         };
-    }
+    }  
 
     // Close modal when the close button (x) is clicked
     if (span && modal) {
