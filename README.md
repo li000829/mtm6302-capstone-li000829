@@ -31,3 +31,33 @@ Project I intend to: #Astronomy Picture of the Day Search
 
 "Completes the assignment part 2."
 
+
+## Report for Capstone Project - Part 3
+
+###HTML Structure: 
+-Developed the basic HTML structure for the gallery page, including a header, main content, and a section to display gallery items.
+
+###CSS Styling: 
+-Added separate CSS file to style the gallery page, ensuring a responsive layout for different screen sizes. The gallery layout changes to display 3 columns on desktop, 2 columns on tablet, and 1 column on mobile.
+
+###JavaScript Interactivity: 
+-Added JavaScript functionality for the hamburger menu and for redirecting users to the gallery page when clicking on the 'getApod' and 'Save as Favorite' button.
+
+###Responsive Design: 
+-Implemented media queries in CSS to make the gallery section responsive for different devices. Adjusted the image sizes and gallery grid to ensure it remains centered and visually appealing.
+
+###Resources Used
+- VS Code: The primary IDE for coding and testing the project.
+- JavaScript and CSS: Utilized for adding interactivity and styling the prototype.
+
+###Challenges Faced
+- Gallery Centering Issues: Initially, the gallery section was not centered properly, especially when set to a larger width. This was resolved by adjusting the CSS properties for the gallery and main sections to ensure proper alignment.
+
+- Responsive Layout Adjustments: Ensuring that the gallery maintained a consistent look across all screen sizes was challenging. Media queries were implemented and adjusted multiple times to achieve the desired responsiveness.
+
+- JavaScript Button Functionality: Implementing the 'getAPOD' and 'Save as Favorite' button redirection using JavaScript instead of inline HTML required extra testing to ensure it worked correctly on all devices.
+
+###Conclusion
+- The prototype creation involved several stages of development, from building the HTML structure to adding styling, functionality, and ensuring responsiveness. Challenges such as gallery centering and responsive adjustments were addressed through iterative testing and CSS modifications. Overall, the project provided valuable experience in front-end development, responsive design integration.
+
+"Completes the assignment part 3."
