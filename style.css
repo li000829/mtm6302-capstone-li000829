@@ -47,6 +47,10 @@ nav {
     font-weight: bold;
 }
 
+.nav-btn.active {
+    text-decoration: underline;
+}
+
 /* Hamburger menu icon (visible only on mobile) */
 .hamburger-menu {
     display:none;

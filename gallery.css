@@ -68,6 +68,10 @@ nav {
     font-weight: bold;
 }
 
+.nav-btn.active {
+    text-decoration: underline;
+}
+
 .logo-image {
     max-width: 100px; 
     height: auto;
